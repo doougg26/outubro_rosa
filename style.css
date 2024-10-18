@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --main-color:#ff69b4;
+  --s-color:#ffd9ec;
+  --main-f-color:#E4EEF1;
+  --s-f-color:#000;
+  --m-font: "Noto Sans", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--m-font);
+}
+
+article {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffd9ec;
+}
+body header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--main-color);
+  color: var(--main-f-color);
+}
+body header .logo {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+body header .logo h1 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+body header nav ul li {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  list-style: none;
+}
+body header nav ul li:hover {
+  cursor: pointer;
+}
+body main {
+  font-size: 22px;
+}
+body main .f-section {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  color: var(--s-f-color);
+}
+body main .f-section figure img {
+  width: 400px;
+}
+body main .s-section {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--main-color);
+  color: var(--main-f-color);
+}
+body main .s-section figure img {
+  width: 400px;
+}
+body main .t-section {
+  display: flex;
+  width: 100vw;
+}
+body main .t-section figure {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main .t-section figure img {
+  width: 200px;
+}
+body footer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: var(--main-color);
+  color: var(--main-f-color);
+}
+body footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+body footer nav ul li {
+  list-style: none;
+}
+body footer nav ul li img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  aspect-ratio: 1x1;
+}/*# sourceMappingURL=style.css.map */
